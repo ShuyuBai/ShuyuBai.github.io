@@ -1,0 +1,11 @@
+---
+title: "Welcome to My Website"
+author: "Shuyu Bai"
+date: "2026-01-30"
+format:
+  html:
+    theme: journal
+    toc: true
+---
+# Hello, World!  
+Welcome to my Quarto website. ^_^
