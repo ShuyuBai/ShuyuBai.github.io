@@ -7,5 +7,6 @@ format:
     theme: journal
     toc: true
 ---
+
 # Hello, World!  
-Welcome to my Quarto website. ^_^
+I am Shuyu Bai, a data scientist with a passion for machine learning and AI. This website serves as a platform to share my projects, insights, and experiences in the field of data science.
