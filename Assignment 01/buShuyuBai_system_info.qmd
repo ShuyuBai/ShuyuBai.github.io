@@ -1,0 +1,24 @@
+---
+title: "Assignment 01"
+subtitle: "System Information Proof"
+author: "Shuyu Bai"
+date: 01/31/2026
+date-modified: today
+format: 
+  docx: default
+---
+
+```{python}
+import platform
+import psutil
+
+print("Operating System:", platform.system(), platform.release())
+print("Python Version:", platform.python_version())
+print("Machine:", platform.machine())
+print("Processor:", platform.processor())
+
+mem = psutil.virtual_memory()
+print("Total Memory (MB):", round(mem.total / (1024**2), 2))
+print("Available Memory (MB):", round(mem.available / (1024**2), 2))
+
+```
